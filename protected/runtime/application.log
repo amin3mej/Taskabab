@@ -1,0 +1,8 @@
+2015/04/05 22:37:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'امکان پاسخ به درخواست "theme/img/favicon.png" وجود ندارد' in /home/amin/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /home/amin/yii/web/CWebApplication.php(141): CWebApplication->runController('theme/img/favic...')
+#1 /home/amin/yii/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /var/www/taskabab/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/taskabab/theme/img/favicon.png
+---

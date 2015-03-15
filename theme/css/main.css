@@ -1,0 +1,373 @@
+/*
+ * Author: amin web developer
+ * URL: http://aminwd.ir
+ *
+ * Project Name: TasKabab - Ads manager system
+ * Version: 1.0
+ * URL: alvarez.is
+ */
+
+@font-face{
+font-family:'Yekan';src:url('fonts/WebYekan/WebYekan.eot');
+src:url('../fonts/WebYekan/WebYekan.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/WebYekan/WebYekan.woff') format('woff'),
+	url('../fonts/WebYekan/WebYekan.ttf') format('truetype'),
+	url('../fonts/WebYekan/WebYekan.svg#WebYekan') format('svg');
+}
+html {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 40px;
+}
+body,.footer {
+	font-family: 'Yekan', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+.back-blue{
+	background-color: #3498db;
+	height: 100%;
+}
+.footer {
+	background-color: #f2f2f2;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Yekan', sans-serif;
+	font-weight: 300;
+	color: #333;
+}
+
+h1 {
+	font-size: 72px;
+	text-align: center;
+}
+
+h3 {
+	color: #95a5a6;
+	font-weight: 400;
+}
+
+h4 {
+	color: #95a5a6;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+/* Paragraph & Typographic */
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+	font-size: 16px;
+}
+
+.centered {
+	text-align: center;
+}
+
+/* Links */
+a {
+	color: #3498db;
+	word-wrap: break-word;
+
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+
+a:before,
+a:after {
+	-webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
+	transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar-default {
+	background-color: #3498db;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+/* Helpers */
+
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.form-control {
+	height: 42px;
+	font-size: 18px;
+	width: 380px;
+}
+
+i {
+	margin-left: 5px;
+}
+
+.dropdown-menu {
+	left: -1px;
+	right: auto;
+	float: right;
+	text-align: right;
+	padding: 15px; 
+	padding-bottom: 0px;
+	width: 300px;
+}
+#username,#password{
+	direction: ltr;
+	text-align: left;
+}
+/* HeaderWrap */
+#headerwrap {
+	/* background: url(../img/bg01.jpg) no-repeat center top; */
+	background-color: #3498db;
+	margin-top: -84px;
+	padding-top:12%;
+	background-attachment: relative;
+	background-position: center center;
+	min-width: 100%;
+	min-height: 100%;
+	vertical-align: middle;
+	float: left;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#headerwrap .logo {
+	max-height: 300px;
+	margin-bottom: -30px;
+	margin-top: -10px;
+}
+#headerwrap h2 {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	color: white;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+#headerwrap h4 {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	color: white;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+#headerwrap div:nth-child(1) {
+	margin-bottom: 3px;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+}
+.margin-down{
+	margin-top:5px;	
+	margin-right: -5px;
+}
+#search{
+	width: 100% !important;
+}
+.navbar {
+	border-radius: 0 !important;
+	border: 0;
+}
+.form2-control {
+	display: block;
+	width: 120%;
+	height: 120%;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.428571429;
+	color: #555555;
+	vertical-align: middle;
+	background-color: #ffffff;
+	background-image: none;
+	border-radius: 5px;
+}
+.border-radius-5{
+	border-radius: 5px;
+}
+.select2-container .select2-choice {
+	height: 30px;
+	width: 100%;
+}
+span.required
+{
+	color: red;
+	font-family: tahoma;
+}
+img.captcha-img{
+	cursor: pointer;
+}
+.page-content{
+}
+div.sidebar,div.main{
+    padding-top: 50px;
+}
+.breadcrumb {
+	margin-top: 20px;
+}
+.ajax-delete{
+	margin-top: 3px;
+}
+.nav-sidebar { 
+    width: 100%;
+    padding: 8px 0; 
+    /*border-left: 1px solid #ddd;*/
+}.portlet-decoration .portlet-title{ 
+    border-top: 1px #ddd solid;
+    /*border-left: : 1px #ddd solid;*/
+    margin-top: 10px;
+}
+.nav-sidebar a {
+    color: #333;
+    -webkit-transition: all 0.08s linear;
+    -moz-transition: all 0.08s linear;
+    -o-transition: all 0.08s linear;
+    transition: all 0.08s linear;
+    -webkit-border-radius: 0 4px 4px 0; 
+    -moz-border-radius: 0 4px 4px 0; 
+    border-radius: 0 4px 4px 0; 
+}
+.nav-sidebar .active a { 
+    cursor: default;
+    background-color: #428bca; 
+    color: #fff; 
+    text-shadow: 1px 1px 1px #666; 
+}
+.nav-sidebar .active a:hover {
+    background-color: #428bca;   
+}
+.nav-sidebar .text-overflow a,
+.nav-sidebar .text-overflow .media-body {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis; 
+}
+
+/* Right-aligned sidebar */
+.nav-sidebar.pull-right { 
+    border-right: 0; 
+    /*border-left: 1px solid #ddd; */
+}
+.nav-sidebar.pull-right a {
+    -webkit-border-radius: 4px 0 0 4px; 
+    -moz-border-radius: 4px 0 0 4px;  
+    border-radius: 4px 0 0 4px; 
+}
+.ltr{
+	direction: ltr;
+	text-align: left;
+}
+.errorMessage{
+	color: #a94442;
+}
+span.MultiFile-title{
+	font-family: tahoma;
+}
+.MultiFile-label{
+	direction: ltr;
+	text-align: right;
+}
+#Ads_price{
+	width: 253px;
+}
+#Ads_price_type{
+	width: 123px;
+}
+.adve{
+	margin-top: 55px;
+}
+.btn-toolbar {
+	margin-right: 0px;
+}
+.pager .next>a, .pager .next>span,.pager .previous > a, .pager .previous > span{
+	float: inherit;
+
+}
+.pager .active a, .pager .active span, .pager .active a:hover, .pager .active span:hover, .pager .active a:focus, .pager .active span:focus {
+	z-index: 2;
+	color: #fff;
+	cursor: default;
+	background-color: #337ab7;
+	border-color: #337ab7;
+}
+.pager li > a, .pager li > span {
+	border-radius: 0;
+	margin: -4px;
+}
+.pagination  li.last a, .pagination  li.last span {
+border-top-left-radius: 7px;
+border-bottom-left-radius: 7px;
+}
+.pagination  li.first a, .pagination  li.first span {
+border-top-right-radius: 7px;
+border-bottom-right-radius: 7px;
+}
+#yw2{
+	padding: 0;
+}
+#yw > li > a {
+padding: 8px 15px;
+}
+.blockquote{
+	padding-right: 15px;
+	padding-left: 0;
+	border-right: 5px solid #eee;
+	border-left: 0;
+	text-align: right;
+}
+.grid-view .button-column {
+width: 70px;
+}
+.nav > li > a {
+padding: 7px 15px;
+}
+.navbar-nav > li > a {
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.posts{
+	padding-right: 50px;
+}

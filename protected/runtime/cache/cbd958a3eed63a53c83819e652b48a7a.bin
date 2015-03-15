@@ -1,0 +1,74 @@
+a:2:{i:0;s:3557:"		<div id="headerwrap">
+				<div class="col-xs-12 centered">
+										<img class="img-responsive logo" src="/taskabab/theme/img/logo.png" alt="تاس کباب" /><br>
+					<h2 class="big-text">بانک اطلاعات تجهیزات و ماشین آلات صنایع، کالاها و اجناس نو و مستعمل و خدمات فنی و عمومی</h2>
+					<form class="form-inline" method="POST" action="/taskabab/ads/searchAll" role="form">
+
+					    <div class="col-md-6 col-xs-12 border-radius-5">
+							<div class="col-md-4 col-xs-10 margin-down ">
+						    	<select name="searchAll[state]" class="form2-control" id="select-status">
+						    		<option value="-1">همه استان ها &nbsp;</option>
+						    		<option value='1'>آذربایجان شرقی</option>
+<option value='2'>آذربایجان غربی</option>
+<option value='3'>اردبیل</option>
+<option value='4'>اصفهان</option>
+<option value='5'>البرز</option>
+<option value='6'>ایلام</option>
+<option value='7'>بوشهر</option>
+<option value='8'>تهران</option>
+<option value='9'>چهارمحال و بختیاری</option>
+<option value='10'>خراسان جنوبی</option>
+<option value='11'>خراسان رضوی</option>
+<option value='12'>خراسان شمالی</option>
+<option value='13'>خوزستان</option>
+<option value='14'>زنجان</option>
+<option value='15'>سمنان</option>
+<option value='16'>سیستان و بلوچستان</option>
+<option value='17'>فارس</option>
+<option value='18'>قزوین</option>
+<option value='19'>قم</option>
+<option value='20'>کردستان</option>
+<option value='21'>کرمان</option>
+<option value='22'>کرمانشاه</option>
+<option value='23'>کهگیلویه و بویراحمد</option>
+<option value='24'>گلستان</option>
+<option value='25'>گیلان</option>
+<option value='26'>لرستان</option>
+<option value='27'>مازندران</option>
+<option value='28'>مرکزی</option>
+<option value='29'>هرمزگان</option>
+<option value='30'>همدان</option>
+<option value='31'>یزد</option>
+						    	</select>
+						    </div>
+						    
+						    <div class="col-md-4 col-xs-10 margin-down">
+						    								    	<select class="form2-control" name="searchAll[price_type]" id="searchAll_price_type">
+<option value="0">همه موضوعات</option>
+<option value="1">تجهيزات و ماشين آلات كارخانجات و معادن</option>
+</select>						    </div>
+						    <div class="col-md-4 col-xs-10 margin-down">
+						    	<select class="form2-control" name="searchAll[category_id]" id="searchAll_category_id">
+<option value="0">همه زیر موضوعات</option>
+</select>						    </div>
+					    </div>
+
+					    <div class="col-md-5 col-xs-12 centered margin-down">
+					    	<input name="searchAll[name]" type="search" class="form-control" id="search" placeholder="جستجو . . .">
+					    </div>
+
+					    <div class="col-md-1 col-xs-12 margin-down">
+					 		<button type="submit" class="btn btn-warning btn-lg">جستجو!</button>
+					    </div>
+
+					</form>					
+				</div>
+				<div class="content adve">
+					<div class="col-xs-12 col-md-6 posts">
+						آخرین مطالب سایت: 
+											</div>
+					<div class="col-xs-12 col-md-6 ads">
+					<a href="#"><img class="img-responsive" src="/taskabab/theme/img/banner.gif" alt="تبلیغات" /></a><br><a href="#"><img class="img-responsive" src="/taskabab/theme/img/banner.gif" alt="تبلیغات" /></a>					</div>					
+				</div>
+		</div><!-- /container -->
+";i:1;N;}
